@@ -868,69 +868,69 @@ default:
 
 
 //11.Написати програму, яка обчислює та виводить мінімум з трьох введених користувачем чисел 
-int number1;
-cout << "Ener number 1: ";
-cin >> number1;
-
-int number2;
-cout << "Ener number 2: ";
-cin >> number2;
-
-int number3;
-cout << "Enter number 3: ";
-cin >> number3;
-
-
-if (number1 < number2 && number1 < number3) {
-	cout << "number1 - the least  of all";
-}
-else if (number1 > number2 && number2 < number3) {
-	cout << "number2 - the least  of all";
-}
-else if (number1 > number3 && number2 > number3) {
-	cout << "number3 - the least  of all";
-}
-else if (number1 == number3 || number2 == number3|| number2 == number1) {
-	cout << "They are equal to each other ";
-}
-else {
-	cout << "Error";
-}
-
-
-int number1;
-cout << "Ener number 1: ";
-cin >> number1;
-
-int number2;
-cout << "Ener number 2: ";
-cin >> number2;
-
-int number3;
-cout << "Enter number 3: ";
-cin >> number3;
-
-int numbers = (number1 < number2 && number1 < number3) * 1 + (number1 > number2 && number2 < number3) * 2 + (number1 > number3 && number2 > number3) * 3; 
-switch (numbers)
-{
-case 1:
-	cout << "number1 - the least  of all";
-	break;
-case 2:
-	cout << "number2 - the least  of all";
-	break;
-case 3:
-	cout << "number3 - the least  of all";
-	break;
-
-default:
-	cout << "Error";
-	break;
-}														   
-
+//int number1;
+//cout << "Ener number 1: ";
+//cin >> number1;
 //
-return 0;
-}
+//int number2;
+//cout << "Ener number 2: ";
+//cin >> number2;
+//
+//int number3;
+//cout << "Enter number 3: ";
+//cin >> number3;
+//
+//
+//if (number1 < number2 && number1 < number3) {
+//	cout << "number1 - the least  of all";
+//}
+//else if (number1 > number2 && number2 < number3) {
+//	cout << "number2 - the least  of all";
+//}
+//else if (number1 > number3 && number2 > number3) {
+//	cout << "number3 - the least  of all";
+//}
+//else if (number1 == number3 || number2 == number3|| number2 == number1) {
+//	cout << "They are equal to each other ";
+//}
+//else {
+//	cout << "Error";
+//}
+//
+//
+//int number1;
+//cout << "Ener number 1: ";
+//cin >> number1;
+//
+//int number2;
+//cout << "Ener number 2: ";
+//cin >> number2;
+//
+//int number3;
+//cout << "Enter number 3: ";
+//cin >> number3;
+//
+//int numbers = (number1 < number2 && number1 < number3) * 1 + (number1 > number2 && number2 < number3) * 2 + (number1 > number3 && number2 > number3) * 3; 
+//switch (numbers)
+//{
+//case 1:
+//	cout << "number1 - the least  of all";
+//	break;
+//case 2:
+//	cout << "number2 - the least  of all";
+//	break;
+//case 3:
+//	cout << "number3 - the least  of all";
+//	break;
+//
+//default:
+//	cout << "Error";
+//	break;
+//}														   
+//
+////
+//return 0;
+//}
 
 
 
